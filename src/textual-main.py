@@ -41,7 +41,7 @@ class MainArea(VerticalGroup):
 
 class MewsicMaidTui(App):
     """A Textual app to manage stopwatches."""
-    CSS_PATH = "../mewsicmaid.tcss"
+    CSS_PATH = "mewsicmaid.tcss"
 
     BINDINGS = [
         ("ctrl+f", "app.focus('search')", "Search"),
