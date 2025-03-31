@@ -4,8 +4,8 @@ from textual.containers import HorizontalGroup, VerticalGroup, VerticalScroll
 from textual.widgets import Footer, Header,Label, Button, Input, Static, ListItem, ListView
 
 import sys
-sys.path.append("/")
-from Constants import ascii_art
+from mewsic_maid.Constants import ascii_art
+import ptmv
 
 
 class Title(Label):
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
     #image_path ="/home/d-d/Mewsic-Maid/Luckystar.webm"
     #subprocess.run(["timg", image_path, "-W", "--scroll", "-p", "quarter", "-U", "--color8"])
-    Tui.ptmv.__main__.main("/tv-glitch.webm")
+    ptmv.__main__.main("/tv-glitch.webm")
 
     app = MewsicMaidTui()
     app.run()
