@@ -14,10 +14,10 @@ uv run mewsic_maid/main.py
 
 ## TODO
 
--[ ] search-autocomplete
--[ ] Fetch data from sources 
--[ ] Download from sources
--[ ] restyle UI sketches/program 
--[ ] Sync Local/Sources with Sources/Local
--[ ] Scrap tags from existing
+-   [ ] search-autocomplete
+-   [ ] Fetch data from sources 
+-   [ ] Download from sources
+-   [ ] restyle UI sketches/program 
+-   [ ] Sync Local/Sources with Sources/Local
+-   [ ] Scrap tags from existing
 
