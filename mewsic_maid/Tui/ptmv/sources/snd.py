@@ -3,7 +3,7 @@ import subprocess
 import tempfile
 import time
 import wave
-import simpleaudio
+#import simpleaudio
 
 def extract(file):
 	ptmv_tempdir = os.path.join(tempfile.gettempdir(), "ptmv")

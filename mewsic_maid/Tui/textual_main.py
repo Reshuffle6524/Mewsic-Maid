@@ -3,9 +3,8 @@ from textual.app import App, ComposeResult
 from textual.containers import HorizontalGroup, VerticalGroup, VerticalScroll
 from textual.widgets import Footer, Header,Label, Button, Input, Static, ListItem, ListView
 
-import sys
 from mewsic_maid.Constants import ascii_art
-import ptmv
+from mewsic_maid.Tui.ptmv import sendVid
 
 
 class Title(Label):
@@ -64,12 +63,11 @@ class MewsicMaidTui(App):
         """An action to toggle dark mode."""
         Search().focus()
 
-if __name__ == "__main__":
+def main():
 
-
-    #image_path ="/home/d-d/Mewsic-Maid/Luckystar.webm"
+    image_path ="/home/d-d/Mewsic-Maid/tv-glitch.webm"
     #subprocess.run(["timg", image_path, "-W", "--scroll", "-p", "quarter", "-U", "--color8"])
-    ptmv.__main__.main("/tv-glitch.webm")
+    sendVid.main("/home/d-d/Mewsic-Maid/tv-glitch.webm")
 
     app = MewsicMaidTui()
     app.run()

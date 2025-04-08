@@ -1,5 +1,7 @@
 import Tui.textual_main
 from mewsic_maid.Tui import textual_main
+from Constants import ascii_art
+
 
 
 def main():

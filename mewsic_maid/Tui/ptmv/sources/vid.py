@@ -5,10 +5,6 @@ from . import console
 from . import img
 from . import snd
 
-import sys
-sys.path.append("/")
-import
-
 global a
 a = list()
 def play(file, width, height, target_fps, start_offset):
