@@ -3,26 +3,14 @@
 
 But if you want to see how it looks rn:
 
+## Requirements
+``uv``
 ## Download:
 ```
 git clone https://github.com/Reshuffle6524/Mewsic-Maid.git
 cd Mewsic-Maid
-python3 -m venv venv
+uv run mewsic_maid/main.py
 ```
-bash:
-```
-source venv/bin/activate
-```
-fish:
-```
-source venv/bin/activate.fish
-```
-
-```
-pip install -r requirements.txt
-python src/textual-main.py
-```
-
 
 ## TODO
 
@@ -32,3 +20,4 @@ python src/textual-main.py
 -[ ] restyle UI sketches/program 
 -[ ] Sync Local/Sources with Sources/Local
 -[ ] Scrap tags from existing
+
